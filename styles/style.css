@@ -41,6 +41,7 @@ a {
 
 body>* {
     margin: 0 auto;
+    color: var(--primary-color);
 }
 
 button {
@@ -50,9 +51,54 @@ button {
 main,
 header {
     border: 2px solid red;
-    max-width: 82.5rem;
+    max-width: 75rem;
+}
+
+header {
+    margin-top: 5rem;
 }
 
 footer {
     border: 2px solid red;
+}
+
+.common-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.common-subtitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+/* 
+
+            Header
+
+*/
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    flex-grow: 2;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.logo h3 {
+    font-size: 1.5rem;
 }
