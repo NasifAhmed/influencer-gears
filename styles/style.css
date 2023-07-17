@@ -169,6 +169,32 @@ nav .logo {
     margin-bottom: 5rem;
 }
 
+/* Collection Section */
+
+.collection {
+    display: grid;
+}
+
+.collection-card {
+    width: 18.8rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.collection-card h2 {
+    margin-top: 1rem;
+}
+
+.collection-card h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* .collection-card img {
+    width: 90%;
+} */
+
 /* 
 
             Responsive
