@@ -165,6 +165,7 @@ nav .logo {
 
 .companies {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 3.75rem;
@@ -244,16 +245,6 @@ nav .logo {
 
     .intro-banner {
         max-width: unset;
-    }
-
-    /* Companies section */
-
-    .companies {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 3.75rem;
-        margin-bottom: 5rem;
     }
 
 }
