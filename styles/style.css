@@ -155,9 +155,6 @@ nav .logo {
     background-size: 100%;
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
-
-.intro-banner img {
     max-width: 100%;
 }
 
@@ -215,7 +212,7 @@ nav .logo {
     }
 
     .logo h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     /* Introduction Section */
@@ -244,7 +241,10 @@ nav .logo {
     }
 
     .intro-banner {
-        max-width: unset;
+        width: 70%;
     }
 
+    .companies {
+        gap: 2.8rem;
+    }
 }
