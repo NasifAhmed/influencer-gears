@@ -30,10 +30,20 @@ a {
     color: inherit;
 }
 
-body {
+body>* {
     margin: 0 auto;
 }
 
 button {
     border: none;
+}
+
+main,
+header {
+    border: 2px solid red;
+    max-width: 82.5rem;
+}
+
+footer {
+    border: 2px solid red;
 }
