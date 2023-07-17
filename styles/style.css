@@ -4,10 +4,19 @@
 
 */
 
+:root {
+    --primary-color: #3A3A3A;
+    --secondary-color-collection: #787885;
+    --secondary-color-join: #6C6C6C;
+    --secondary-color-footer: #D9DBE1;
+    --button-color: #E02C6D;
+}
+
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1,
