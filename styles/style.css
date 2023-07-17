@@ -51,7 +51,8 @@ button {
 main,
 header {
     border: 2px solid red;
-    max-width: 75rem;
+    max-width: 90rem;
+    padding: 0 7.5rem;
 }
 
 header {
@@ -128,6 +129,8 @@ nav .logo {
 .introduction {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
 }
 
 .intro-content h1 {
@@ -149,6 +152,7 @@ nav .logo {
     background-image: url("../assets/images/Circle\ design.svg");
     background-position: center;
     background-repeat: no-repeat;
+    height: 30rem;
 }
 
 /* 
