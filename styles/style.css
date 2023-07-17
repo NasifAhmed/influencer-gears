@@ -155,6 +155,16 @@ nav .logo {
     height: 30rem;
 }
 
+/* Companies section */
+
+.companies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.75rem;
+    margin-bottom: 5rem;
+}
+
 /* 
 
             Responsive
